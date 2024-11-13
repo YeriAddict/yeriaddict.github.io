@@ -21,29 +21,49 @@ import {
 export const Navbar = () => {
 
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
+    <NextUINavbar maxWidth="xl" position="sticky" isBordered>
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-        <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            <p className="font-bold text-inherit">ACME</p>
-          </NextLink>
-        </NavbarBrand>
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
-          {siteConfig.navItems.map((item) => (
-            <NavbarItem key={item.href}>
-              <NextLink
-                className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium",
-                )}
-                color="foreground"
-                href={item.href}
-              >
-                {item.label}
-              </NextLink>
-            </NavbarItem>
-          ))}
+        <ul className="hidden lg:flex gap-12 justify-start ml-2">
+
+          <NavbarItem key={siteConfig.navItems[0].label}>
+            <NextLink
+              className={clsx(
+                linkStyles({ color: "foreground" }),
+                "data-[active=true]:text-primary data-[active=true]:font-medium",
+              )}
+              color="foreground"
+              href={siteConfig.navItems[0].href}
+            >
+              {siteConfig.navItems[0].label}
+            </NextLink>
+          </NavbarItem>
+
+          <NavbarItem key={siteConfig.navItems[1].label}>
+            <NextLink
+              className={clsx(
+                linkStyles({ color: "foreground" }),
+                "data-[active=true]:text-primary data-[active=true]:font-medium",
+              )}
+              color="foreground"
+              href={siteConfig.navItems[1].href}
+            >
+              {siteConfig.navItems[1].label}
+            </NextLink>
+          </NavbarItem>
+
+          <NavbarItem key={siteConfig.navItems[2].label}>
+            <NextLink
+              className={clsx(
+                linkStyles({ color: "foreground" }),
+                "data-[active=true]:text-primary data-[active=true]:font-medium", "text-lg"
+              )}
+              color="foreground"
+              href={siteConfig.navItems[2].href}
+            >
+              {siteConfig.navItems[2].label}
+            </NextLink>
+          </NavbarItem>
+
         </ul>
       </NavbarContent>
 
