@@ -1,3 +1,5 @@
+"use client"
+
 import { Navbar as NextUINavbar, NavbarContent, NavbarItem, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
@@ -7,8 +9,13 @@ import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo } from "../icons";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const handleMenuToggle = () => setIsMenuOpen(!isMenuOpen);
+  const handleMenuItemClick = () => setIsMenuOpen(false);
+
   return (
     <NextUINavbar maxWidth="xl" position="sticky" isBordered>
       <NavbarContent className="flex-[1] sm:flex-[1]" justify="start">
@@ -81,7 +88,7 @@ export const Navbar = () => {
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
         <ThemeSwitch />
-        <NavbarMenuToggle />
+        <NavbarMenuToggle onClick={handleMenuToggle} />
       </NavbarContent>
 
       <NavbarMenu>
@@ -91,6 +98,7 @@ export const Navbar = () => {
               <Link
                 href={item.href}
                 size="lg"
+                onClick={handleMenuItemClick}
               >
                 {item.label}
               </Link>
