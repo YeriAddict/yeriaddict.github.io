@@ -16,6 +16,7 @@ export default function Home() {
         <div className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern React UI library.
         </div>
+        <div>WORK IN PROGRESS</div>
       </div>
 
       <div className="mt-8">
