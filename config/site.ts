@@ -15,6 +15,10 @@ export const siteConfig = {
     {
       label: "Resume",
       href: "/resume",
+    },
+    {
+      label: "Projects",
+      href: "/projects",
     }
   ],
   links: {

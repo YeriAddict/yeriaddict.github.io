@@ -11,14 +11,17 @@ import { Logo } from "../icons";
 export const Navbar = () => {
   return (
     <NextUINavbar maxWidth="xl" position="sticky" isBordered>
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
+      <NavbarContent className="flex-[1] sm:flex-[1]" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <Logo />
             <p className="font-bold text-inherit">denis.leang</p>
           </NextLink>
         </NavbarBrand>
-        <ul className="hidden lg:flex gap-12 justify-start ml-6">
+      </NavbarContent>
+
+      <NavbarContent className="flex-[4] sm:flex-[4]" justify="center">
+        <ul className="hidden lg:flex gap-12 justify-start">
           <NavbarItem key={siteConfig.navItems[0].label}>
             <NextLink
               className={clsx(
@@ -55,13 +58,22 @@ export const Navbar = () => {
               {siteConfig.navItems[2].label}
             </NextLink>
           </NavbarItem>
+          <NavbarItem key={siteConfig.navItems[3].label}>
+            <NextLink
+              className={clsx(
+                linkStyles({ color: "foreground" }),
+                "data-[active=true]:text-primary data-[active=true]:font-medium", "text-lg"
+              )}
+              color="foreground"
+              href={siteConfig.navItems[3].href}
+            >
+              {siteConfig.navItems[3].label}
+            </NextLink>
+          </NavbarItem>
         </ul>
       </NavbarContent>
 
-      <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
-        justify="end"
-      >
+      <NavbarContent className="flex-[1] sm:flex-[1]" justify="end">
         <NavbarItem className="hidden sm:flex gap-2">
           <ThemeSwitch />
         </NavbarItem>
