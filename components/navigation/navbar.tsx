@@ -21,12 +21,12 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="flex-[4] sm:flex-[4]" justify="center">
-        <ul className="hidden lg:flex gap-12 justify-start">
-          <NavbarItem key={siteConfig.navItems[0].label}>
+        <ul className="hidden lg:flex gap-12 justify-start bg-primary-300 h-[70%] items-center rounded-full border-2 border-success-500">
+          <NavbarItem key={siteConfig.navItems[0].label} className="flex items-center justify-center pl-4">
             <NextLink
               className={clsx(
                 linkStyles({ color: "foreground" }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium",
+                "data-[active=true]:text-primary data-[active=true]:font-medium text-center",
               )}
               color="foreground"
               href={siteConfig.navItems[0].href}
@@ -34,11 +34,11 @@ export const Navbar = () => {
               {siteConfig.navItems[0].label}
             </NextLink>
           </NavbarItem>
-          <NavbarItem key={siteConfig.navItems[1].label}>
+          <NavbarItem key={siteConfig.navItems[1].label} className="flex items-center justify-center">
             <NextLink
               className={clsx(
                 linkStyles({ color: "foreground" }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium",
+                "data-[active=true]:text-primary data-[active=true]:font-medium text-center",
               )}
               color="foreground"
               href={siteConfig.navItems[1].href}
@@ -46,11 +46,11 @@ export const Navbar = () => {
               {siteConfig.navItems[1].label}
             </NextLink>
           </NavbarItem>
-          <NavbarItem key={siteConfig.navItems[2].label}>
+          <NavbarItem key={siteConfig.navItems[2].label} className="flex items-center justify-center">
             <NextLink
               className={clsx(
                 linkStyles({ color: "foreground" }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium", "text-lg"
+                "data-[active=true]:text-primary data-[active=true]:font-medium text-center text-lg",
               )}
               color="foreground"
               href={siteConfig.navItems[2].href}
@@ -58,11 +58,11 @@ export const Navbar = () => {
               {siteConfig.navItems[2].label}
             </NextLink>
           </NavbarItem>
-          <NavbarItem key={siteConfig.navItems[3].label}>
+          <NavbarItem key={siteConfig.navItems[3].label} className="flex items-center justify-center pr-4">
             <NextLink
               className={clsx(
                 linkStyles({ color: "foreground" }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium", "text-lg"
+                "data-[active=true]:text-primary data-[active=true]:font-medium text-center text-lg",
               )}
               color="foreground"
               href={siteConfig.navItems[3].href}
