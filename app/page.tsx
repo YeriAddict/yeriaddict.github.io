@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-xl text-center justify-center">
-          <div>WORK IN PROGRESS (about 30% done)</div>
+          <div>WORK IN PROGRESS (about 50% done)</div>
           <span className={title()}>Make&nbsp;</span>
           <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
           <br />
