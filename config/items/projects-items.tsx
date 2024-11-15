@@ -19,7 +19,7 @@ export const projects = [
     header: "RPG Chat Simulator",
     body: "An RPG chat simulator that allows users to create and join chat rooms to discuss and move around",
     technologies: ["JavaScript", "Express", "Socket.IO"],
-    image: {src: "/projects_images/rpg_chat_simulator.png", alt: "RPG Chat Simulator"},
+    image: {src: "/projects_images/rpg_chat_simulator.jpg", alt: "RPG Chat Simulator"},
     githubLink: "https://github.com/YeriAddict/rpg-chat-simulator",
     websiteLink: ""
   },

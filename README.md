@@ -15,6 +15,10 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [next-themes](https://github.com/pacocoursey/next-themes)
 - [react-chrono](https://github.com/prabhuignoto/react-chrono)
 
+## How to deploy
+
+https://github.com/gregrickaby/nextjs-github-pages?tab=readme-ov-file
+
 ## How to Use
 
 ### Use the template with create-next-app

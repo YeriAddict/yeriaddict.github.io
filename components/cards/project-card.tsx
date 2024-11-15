@@ -6,6 +6,7 @@ import { GithubIcon } from "../icons";
 import { WebsiteIcon } from "../icons";
 import { ImageType } from "@/types";
 import { Textarea } from "@nextui-org/input";
+import { Button } from "@nextui-org/button";
 
 interface Props {
   header: string;
@@ -27,10 +28,7 @@ export const ProjectCard = ({ header, body, technologies, image, githubLink, web
         <CardBody className="flex flex-col items-center justify-center gap-4">
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {technologies.map((tech, index) => (
-              <div
-                key={index}
-                className="flex justify-center items-center w-full"
-              >
+              <div className="flex justify-center items-center w-full" key={index}>
                 <Textarea
                   isDisabled
                   defaultValue={tech}
@@ -44,20 +42,35 @@ export const ProjectCard = ({ header, body, technologies, image, githubLink, web
           <Image
             isZoomed
             alt={image.alt}
-            className="object-cover w-[400px] h-[300px]"
+            width={400}
+            height={300}
             src={image.src}
           />
           <p className="h-[70px]">{body}</p>
         </CardBody>
         <Divider />
         <CardFooter className="justify-center gap-6">
-          <Link isExternal aria-label="GitHub" href={githubLink}>
-            <GithubIcon className="text-default-500" />
-          </Link>
+          <Button
+            href={githubLink}
+            as={Link}
+            color="primary"
+            startContent={<GithubIcon />}
+            variant="solid"
+            className="hover:bg-primary-700"
+          >
+            Code
+          </Button>
           {websiteLink && (
-            <Link isExternal aria-label="Website" href={websiteLink}>
-              <WebsiteIcon className="text-default-500" />
-            </Link>
+            <Button
+              href={websiteLink}
+              as={Link}
+              color="primary"
+              startContent={<WebsiteIcon />}
+              variant="solid"
+              className="hover:bg-primary-700"
+            >
+              Demo
+            </Button>
           )}
         </CardFooter>
       </Card>
