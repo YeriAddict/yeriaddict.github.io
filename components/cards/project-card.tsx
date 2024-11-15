@@ -25,7 +25,7 @@ export const ProjectCard = ({ header, body, technologies, image, githubLink, web
         </CardHeader>
         <Divider />
         <CardBody className="flex flex-col items-center justify-center gap-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {technologies.map((tech, index) => (
               <div
                 key={index}
