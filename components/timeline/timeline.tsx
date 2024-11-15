@@ -3,44 +3,17 @@
 import React from 'react';
 import type { Chrono as ChronoType } from 'react-chrono';
 import dynamic from 'next/dynamic';
-import { timelineItems } from "@/components/timeline/timeline-items";
-import { Image } from "@nextui-org/image";
 
-const Chrono = dynamic(() => import('react-chrono').then(lib => lib.Chrono), {
+interface Props {
+  timelineContent: React.JSX.Element[],
+  timelineItems: { title: string; cardTitle: string; cardSubtitle: string; }[],
+}
+
+const Chrono = dynamic(() => import("react-chrono").then(lib => lib.Chrono), {
   ssr: false,
 }) as typeof ChronoType;
 
-export const Timeline = () => {
-  const timelineContent = [
-    <React.Fragment key="content_three">
-      <Image
-        isZoomed
-        alt="Columbia University"
-        className="object-cover w-[400px] h-[230px]"
-        src="/columbia_university.jpg"
-      />
-      <span className="text-primary-500">New York City, NY, USA</span>
-    </React.Fragment>,
-    <React.Fragment key="content_two">
-      <Image
-        isZoomed
-        alt="Telecom Saint-Etienne"
-        className="object-cover w-[400px] h-[230px]"
-        src="/telecom_saint_etienne.jpeg"
-      />
-      <span className="text-primary-500">Saint-Étienne, France</span>
-    </React.Fragment>,
-    <React.Fragment key="content_one">
-      <Image
-        isZoomed
-        alt="Lycee du Parc"
-        className="object-cover w-[400px] h-[200px]"
-        src="/lycee_du_parc.jpg"
-      />
-      <span className="text-primary-500">Lyon, France</span>
-    </React.Fragment>,
-  ];
-
+export const Timeline = ({ timelineContent, timelineItems}: Props) => {
   return (
     <>
       <Chrono
