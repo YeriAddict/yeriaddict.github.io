@@ -8,8 +8,8 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo } from "../icons";
 import { useState } from "react";
+import { RabbitIcon } from "../icons";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +21,7 @@ export const Navbar = () => {
       <NavbarContent className="flex-[1] sm:flex-[1]" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
+            <RabbitIcon />
             <p className="font-bold text-inherit">denis.leang</p>
           </NextLink>
         </NavbarBrand>
