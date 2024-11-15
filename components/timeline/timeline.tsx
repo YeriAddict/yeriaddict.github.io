@@ -16,7 +16,7 @@ export const Timeline = () => {
       <Image
         isZoomed
         alt="Columbia University"
-        className="object-cover w-full h-full"
+        className="object-cover w-[400px] h-[230px]"
         src="/columbia_university.jpg"
       />
       <span className="text-primary-500">New York City, NY, USA</span>
@@ -25,7 +25,7 @@ export const Timeline = () => {
       <Image
         isZoomed
         alt="Telecom Saint-Etienne"
-        className="object-cover w-full h-full"
+        className="object-cover w-[400px] h-[230px]"
         src="/telecom_saint_etienne.jpeg"
       />
       <span className="text-primary-500">Saint-Étienne, France</span>
@@ -34,7 +34,7 @@ export const Timeline = () => {
       <Image
         isZoomed
         alt="Lycee du Parc"
-        className="object-cover w-full h-full"
+        className="object-cover w-[400px] h-[200px]"
         src="/lycee_du_parc.jpg"
       />
       <span className="text-primary-500">Lyon, France</span>
