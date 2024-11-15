@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/github.ico",
+    icon: "/rabbit.ico",
   },
 };
 
