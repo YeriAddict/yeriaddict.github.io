@@ -1,7 +1,8 @@
-import DownloadButton from '@/components/buttons/download-button';
-import { Card } from '@nextui-org/card';
-import { Spacer } from '@nextui-org/spacer';
-import Image from 'next/image';
+import { Card } from "@nextui-org/card";
+import { Spacer } from "@nextui-org/spacer";
+import Image from "next/image";
+
+import DownloadButton from "@/components/buttons/download-button";
 
 export default function ResumePageComponent() {
   return (
@@ -12,13 +13,17 @@ export default function ResumePageComponent() {
             <Image
               alt="Resume"
               className="object-cover"
-              src="resume/resume.png"
               height={700}
+              src="resume/resume.png"
               width={700}
             />
           </Card>
           <Spacer y={5} />
-          <DownloadButton href="/resume/resume.pdf" download="Denis_Leang_Resume.pdf" text="Download" />
+          <DownloadButton
+            download="Denis_Leang_Resume.pdf"
+            href="/resume/resume.pdf"
+            text="Download"
+          />
           <Spacer y={5} />
         </div>
       </div>

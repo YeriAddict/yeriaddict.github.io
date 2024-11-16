@@ -1,6 +1,7 @@
+import { Spacer } from "@nextui-org/spacer";
+
 import { ProjectCard } from "@/components/cards/project-card";
 import { projects } from "@/config/items/projects-items";
-import { Spacer } from "@nextui-org/spacer";
 
 export default function ProjectsPageComponent() {
   return (
@@ -10,11 +11,11 @@ export default function ProjectsPageComponent() {
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
-              header={project.header}
               body={project.body}
-              technologies={project.technologies}
-              image={project.image}
               githubLink={project.githubLink}
+              header={project.header}
+              image={project.image}
+              technologies={project.technologies}
               websiteLink={project.websiteLink}
             />
           ))}

@@ -1,5 +1,7 @@
 import { Link } from "@nextui-org/link";
+
 import { GithubIcon, LinkedInIcon } from "../icons";
+
 import { siteConfig } from "@/config/site";
 
 export const Footer = () => {
@@ -10,7 +12,11 @@ export const Footer = () => {
           <Link isExternal aria-label="GitHub" href={siteConfig.links.github}>
             <GithubIcon className="text-default-500" />
           </Link>
-          <Link isExternal aria-label="LinkedIn" href={siteConfig.links.linkedin}>
+          <Link
+            isExternal
+            aria-label="LinkedIn"
+            href={siteConfig.links.linkedin}
+          >
             <LinkedInIcon className="text-default-500" />
           </Link>
         </div>

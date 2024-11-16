@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Image } from "@nextui-org/image";
 
 export const timelineItems = [
@@ -15,7 +15,8 @@ export const timelineItems = [
   {
     title: "Sep 2017 - Aug 2020",
     cardTitle: "Lycée du Parc",
-    cardSubtitle: "Preparation for the French national entrance examinations to Grandes Ecoles",
+    cardSubtitle:
+      "Preparation for the French national entrance examinations to Grandes Ecoles",
   },
 ];
 

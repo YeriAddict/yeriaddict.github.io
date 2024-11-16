@@ -19,7 +19,7 @@ export const siteConfig = {
     {
       label: "Projects",
       href: "/projects",
-    }
+    },
   ],
   links: {
     github: "https://github.com/YeriAddict",

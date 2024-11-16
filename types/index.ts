@@ -7,4 +7,4 @@ export type IconSvgProps = SVGProps<SVGSVGElement> & {
 export type ImageType = {
   src: string;
   alt: string;
-}
+};

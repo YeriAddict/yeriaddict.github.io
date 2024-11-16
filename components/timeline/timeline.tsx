@@ -1,30 +1,36 @@
 "use client";
 
-import React from 'react';
-import type { Chrono as ChronoType } from 'react-chrono';
-import dynamic from 'next/dynamic';
+import type { Chrono as ChronoType } from "react-chrono";
+
+import React from "react";
+import dynamic from "next/dynamic";
 
 interface Props {
-  timelineContent: React.JSX.Element[],
-  timelineItems: { title: string; cardTitle: string; cardSubtitle: string; }[],
+  timelineContent: React.JSX.Element[];
+  timelineItems: { title: string; cardTitle: string; cardSubtitle: string }[];
 }
 
-const Chrono = dynamic(() => import("react-chrono").then(lib => lib.Chrono), {
+const Chrono = dynamic(() => import("react-chrono").then((lib) => lib.Chrono), {
   ssr: false,
 }) as typeof ChronoType;
 
-export const Timeline = ({ timelineContent, timelineItems}: Props) => {
+export const Timeline = ({ timelineContent, timelineItems }: Props) => {
   return (
     <>
       <Chrono
-        items={timelineItems}
         cardHeight={365}
-        timelinePointShape="diamond"
-        timelinePointDimension={12}
-        mode="VERTICAL_ALTERNATING"
-        disableToolbar={true}
         disableClickOnCircle={true}
-        theme={{ primary: "blue", secondary: "", cardBgColor: "white", cardForeColor: "black" }}
+        disableToolbar={true}
+        items={timelineItems}
+        mode="VERTICAL_ALTERNATING"
+        theme={{
+          primary: "blue",
+          secondary: "",
+          cardBgColor: "white",
+          cardForeColor: "black",
+        }}
+        timelinePointDimension={12}
+        timelinePointShape="diamond"
       >
         {timelineContent}
       </Chrono>
