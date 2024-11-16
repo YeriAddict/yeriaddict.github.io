@@ -6,28 +6,36 @@ import { title, subtitle } from "@/components/primitives";
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-        <div className="inline-block max-w-xl text-center justify-center">
-          <div>WORK IN PROGRESS (about 50% done)</div>
-          <span className={title()}>Make&nbsp;</span>
-          <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
-          <br />
-          <span className={title()}>
-            websites regardless of your design experience.
-          </span>
-          <div className={subtitle({ class: "mt-4" })}>
-            Beautiful, fast and modern React UI library.
-          </div>
-        </div>
+      <div style={{ textAlign: "center", marginTop: "50px" }}>
+        <span>Hi there! I am Denis. Current work in progress: 60%</span>
+        <span
+          style={{
+            display: "inline-block",
+            animationName: "wave",
+            animationDuration: "2.5s",
+            animationIterationCount: "infinite",
+            transformOrigin: "70% 70%",
+            fontSize: "50px",
+          }}
+        >
+          🤚
+        </span>
 
-        <div className="mt-8">
-          <Snippet hideCopyButton hideSymbol variant="bordered">
-            <span>
-              Get started by editing <Code color="primary">app/page.tsx</Code>
-            </span>
-          </Snippet>
-        </div>
-      </section>
+        {/* Inline CSS for animation */}
+        <style>
+          {`
+            @keyframes wave {
+              0% { transform: rotate(0deg); }
+              15% { transform: rotate(14deg); }
+              30% { transform: rotate(-8deg); }
+              40% { transform: rotate(14deg); }
+              50% { transform: rotate(-4deg); }
+              60% { transform: rotate(10deg); }
+              100% { transform: rotate(0deg); }
+            }
+          `}
+        </style>
+      </div>
     </>
   );
 }
