@@ -6,19 +6,21 @@ import Image from 'next/image';
 export default function ResumePageComponent() {
   return (
     <>
-      <div className="flex flex-col items-center">
-        <Card radius="none">
-          <Image
-            alt="Resume"
-            className="object-cover"
-            src="resume/resume.png"
-            height={700}
-            width={700}
-          />
-        </Card>
-        <Spacer y={5} />
-        <DownloadButton href="/resume/resume.pdf" download="Denis_Leang_Resume.pdf" text="Download" />
-        <Spacer y={5} />
+      <div className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+        <div className="flex flex-col items-center">
+          <Card radius="none">
+            <Image
+              alt="Resume"
+              className="object-cover"
+              src="resume/resume.png"
+              height={700}
+              width={700}
+            />
+          </Card>
+          <Spacer y={5} />
+          <DownloadButton href="/resume/resume.pdf" download="Denis_Leang_Resume.pdf" text="Download" />
+          <Spacer y={5} />
+        </div>
       </div>
     </>
   );
