@@ -1,12 +1,11 @@
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
-import { Link } from "@nextui-org/link";
 import { Divider } from "@nextui-org/divider";
 import { Image } from "@nextui-org/image";
 import { GithubIcon } from "../icons";
 import { WebsiteIcon } from "../icons";
 import { ImageType } from "@/types";
 import { Textarea } from "@nextui-org/input";
-import { Button } from "@nextui-org/button";
+import LinkButton from "../buttons/link-button";
 
 interface Props {
   header: string;
@@ -50,28 +49,8 @@ export const ProjectCard = ({ header, body, technologies, image, githubLink, web
         </CardBody>
         <Divider />
         <CardFooter className="justify-center gap-6">
-          <Button
-            href={githubLink}
-            as={Link}
-            color="primary"
-            startContent={<GithubIcon />}
-            variant="solid"
-            className="hover:bg-primary-700"
-          >
-            Code
-          </Button>
-          {websiteLink && (
-            <Button
-              href={websiteLink}
-              as={Link}
-              color="primary"
-              startContent={<WebsiteIcon />}
-              variant="solid"
-              className="hover:bg-primary-700"
-            >
-              Demo
-            </Button>
-          )}
+          <LinkButton href={githubLink} icon={<GithubIcon />} text="Code" />
+          {websiteLink && (<LinkButton href={websiteLink} icon={<WebsiteIcon />} text="Demo" />)}
         </CardFooter>
       </Card>
     </>
