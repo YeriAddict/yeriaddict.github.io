@@ -14,6 +14,7 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 - [react-chrono](https://github.com/prabhuignoto/react-chrono)
+- [react-typed](https://github.com/ssbeefeater/react-typed?tab=readme-ov-file)
 
 ## How to deploy
 
