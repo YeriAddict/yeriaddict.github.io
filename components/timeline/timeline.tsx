@@ -18,7 +18,7 @@ export const Timeline = ({ timelineContent, timelineItems }: Props) => {
   return (
     <>
       <Chrono
-        cardHeight={365}
+        cardHeight={380}
         disableClickOnCircle={true}
         disableToolbar={true}
         items={timelineItems}

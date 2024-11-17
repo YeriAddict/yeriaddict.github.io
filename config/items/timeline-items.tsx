@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "@nextui-org/image";
+import { Spacer } from "@nextui-org/spacer";
 
 export const timelineItems = [
   {
@@ -28,6 +29,7 @@ export const timelineContent = [
       className="object-cover w-[400px] h-[230px]"
       src="/timeline_images/columbia_university.jpg"
     />
+    <Spacer y={2} />
     <span className="text-primary-500">New York City, NY, USA</span>
   </React.Fragment>,
   <React.Fragment key="content_two">
@@ -37,6 +39,7 @@ export const timelineContent = [
       className="object-cover w-[400px] h-[230px]"
       src="/timeline_images/telecom_saint_etienne.jpeg"
     />
+    <Spacer y={2} />
     <span className="text-primary-500">Saint-Étienne, France</span>
   </React.Fragment>,
   <React.Fragment key="content_one">
@@ -46,6 +49,7 @@ export const timelineContent = [
       className="object-cover w-[400px] h-[200px]"
       src="/timeline_images/lycee_du_parc.jpg"
     />
+    <Spacer y={2} />
     <span className="text-primary-500">Lyon, France</span>
   </React.Fragment>,
 ];

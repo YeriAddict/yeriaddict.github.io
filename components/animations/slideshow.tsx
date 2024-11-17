@@ -12,22 +12,24 @@ interface Props {
 export default function Slideshow({ slidesContent }: Props) {
   return (
     <>
-      <Swiper
-        className="w-full h-full"
-        direction={"horizontal"}
-        effect={"flip"}
-        loop={true}
-        modules={[EffectFlip, Mousewheel, Pagination, Navigation]}
-        mousewheel={true}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        slidesPerView={1}
-        spaceBetween={30}
-      >
-        {slidesContent}
-      </Swiper>
+      <div className="h-[1400px] border border-solid border-black pt-12 mb-6">
+        <Swiper
+          className="w-full h-full"
+          direction={"horizontal"}
+          effect={"flip"}
+          loop={true}
+          modules={[EffectFlip, Mousewheel, Pagination, Navigation]}
+          mousewheel={true}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          slidesPerView={1}
+          spaceBetween={30}
+        >
+          {slidesContent}
+        </Swiper>
+      </div>
     </>
   );
 }
