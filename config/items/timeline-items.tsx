@@ -30,7 +30,7 @@ export const timelineContent = [
       src="/timeline_images/columbia_university.jpg"
     />
     <Spacer y={2} />
-    <span className="text-primary-500">New York City, NY, USA</span>
+    <p className="text-primary-500">New York City, NY, USA</p>
   </React.Fragment>,
   <React.Fragment key="content_two">
     <Image
@@ -40,7 +40,7 @@ export const timelineContent = [
       src="/timeline_images/telecom_saint_etienne.jpeg"
     />
     <Spacer y={2} />
-    <span className="text-primary-500">Saint-Étienne, France</span>
+    <p className="text-primary-500">Saint-Étienne, France</p>
   </React.Fragment>,
   <React.Fragment key="content_one">
     <Image
@@ -50,6 +50,6 @@ export const timelineContent = [
       src="/timeline_images/lycee_du_parc.jpg"
     />
     <Spacer y={2} />
-    <span className="text-primary-500">Lyon, France</span>
+    <p className="text-primary-500">Lyon, France</p>
   </React.Fragment>,
 ];
