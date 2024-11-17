@@ -7,7 +7,12 @@ export const experiences = [
     },
     date: "Jun 2024 - Aug 2024",
     location: "Boston, MA, USA",
-    technologies: ["Python", "TypeScript & React.js", "Microsoft Azure"],
+    technologies: [
+      "Python",
+      "TypeScript & React.js",
+      ".NET",
+      "Microsoft Azure",
+    ],
     image: {
       src: "/experiences_images/analysis_group.png",
       alt: "Analysis Group",
