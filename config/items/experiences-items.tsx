@@ -19,7 +19,7 @@ export const experiences = [
       name: "Bionomous SA",
       src: "https://bionomous.ch/",
     },
-    date: "Feb 2023 - Aug 2024",
+    date: "Feb 2023 - Aug 2023",
     location: "Villaz-Saint-Pierre, FR, CHE",
     technologies: ["Java & Android", "TypeScript & Vue.js", "Microsoft Azure"],
     image: {

@@ -58,9 +58,8 @@ export const ExperienceCard = ({
                     href={company.src}
                   />
                 </div>
-                <p className="text-small text-foreground/80">
-                  {date} | {location}
-                </p>
+                <p className="text-small text-foreground/80">{date}</p>
+                <p className="text-small text-foreground/80">{location}</p>
               </div>
               <div className="flex flex-col mt-3 gap-1">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
