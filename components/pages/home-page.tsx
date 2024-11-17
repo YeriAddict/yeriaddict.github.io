@@ -3,12 +3,14 @@ import { Image } from "@nextui-org/image";
 import { Spacer } from "@nextui-org/spacer";
 import { ReactTyped } from "react-typed";
 
+import HomeTabs from "../tabs/home-tabs";
+
 export default function HomePageComponent() {
   return (
     <>
-      <div className="container mx-auto max-w-7xl flex-grow">
-        <div className="slider-container">
-          <div className="slide flex flex-col">
+      <div className="container mx-auto max-w-7xl h-[calc(100vh-110px)] flex-grow">
+        <div className="slider-container h-full">
+          <div className="slide flex h-full flex-col items-center justify-center">
             <Spacer y={20} />
             <div className="flex flex-col justify-center items-center gap-4">
               <Image
@@ -27,14 +29,15 @@ export default function HomePageComponent() {
                 />
                 <p className="hand-motion">🤚</p>
               </h1>
-              <p>⬇️ for more details!</p>
+              <p>⬇️ for more details! (Work in progress ~90%)</p>
             </div>
+            <Spacer y={4} />
           </div>
 
-          <div className="slide flex flex-col">
-            <Spacer y={20} />
+          <div className="slide flex h-full flex-col" id="details">
+            <Spacer y={14} />
             <div className="flex flex-col justify-center items-center gap-4">
-              Hi!
+              <HomeTabs />
             </div>
           </div>
         </div>
