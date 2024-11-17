@@ -1,7 +1,10 @@
 export const experiences = [
   {
     title: "Data Scientist Intern",
-    company: "Analysis Group",
+    company: {
+      name: "Analysis Group",
+      src: "https://www.analysisgroup.com/",
+    },
     date: "Jun 2024 - Aug 2024",
     location: "Boston, MA, USA",
     technologies: ["Python", "TypeScript & React.js", "Microsoft Azure"],
@@ -12,7 +15,10 @@ export const experiences = [
   },
   {
     title: "Software Engineer Intern",
-    company: "Bionomous SA",
+    company: {
+      name: "Bionomous SA",
+      src: "https://bionomous.ch/",
+    },
     date: "Feb 2023 - Aug 2024",
     location: "Villaz-Saint-Pierre, FR, CHE",
     technologies: ["Java & Android", "TypeScript & Vue.js", "Microsoft Azure"],

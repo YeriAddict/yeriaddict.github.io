@@ -8,3 +8,8 @@ export type ImageType = {
   src: string;
   alt: string;
 };
+
+export type CompanyType = {
+  name: string;
+  src: string;
+};
