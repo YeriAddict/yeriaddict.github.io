@@ -11,6 +11,7 @@ export default function ResumePageComponent() {
         <div className="flex flex-col items-center">
           <Card radius="none">
             <Image
+              priority
               alt="Resume"
               className="object-cover"
               height={700}
