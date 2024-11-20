@@ -25,63 +25,65 @@ export const ExperienceCard = ({
   image,
 }: Props) => {
   return (
-    <Card
-      isHoverable
-      isPressable
-      onPress={() => window.open(company.src, "_blank")}
-    >
-      <CardBody>
-        <div className="flex flex-row items-start gap-6">
-          <div className="flex-shrink-0">
-            <Image
-              alt={image.alt}
-              className="object-cover rounded-md"
-              height={200}
-              shadow="md"
-              src={image.src}
-              width={200}
-            />
-          </div>
-          <div className="flex flex-col flex-grow">
-            <div className="flex flex-col gap-2">
-              <h1 className="text-large font-medium">{title}</h1>
-              <div className="flex items-center">
-                <h3 className="font-semibold text-foreground/90">
-                  {company.name}
-                </h3>
-                <Link
-                  isExternal
-                  showAnchorIcon
-                  anchorIcon={<LinkIcon />}
-                  className="ml-2"
-                  href={company.src}
-                />
-              </div>
-              <p className="text-small text-foreground/80">{date}</p>
-              <p className="text-small text-foreground/80">{location}</p>
+    <>
+      <Card
+        isHoverable
+        isPressable
+        onPress={() => window.open(company.src, "_blank")}
+      >
+        <CardBody>
+          <div className="flex flex-row items-start gap-6">
+            <div className="flex-shrink-0">
+              <Image
+                alt={image.alt}
+                className="object-cover rounded-md"
+                height={200}
+                shadow="md"
+                src={image.src}
+                width={200}
+              />
             </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
-              {technologies.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex justify-center items-center w-full"
-                >
-                  <Textarea
-                    isDisabled
-                    classNames={{
-                      input: "text-center font-bold text-m text-primary-200",
-                    }}
-                    color="primary"
-                    defaultValue={tech}
-                    maxRows={1}
+            <div className="flex flex-col flex-grow">
+              <div className="flex flex-col gap-2">
+                <h1 className="text-large font-medium">{title}</h1>
+                <div className="flex items-center">
+                  <h3 className="font-semibold text-foreground/90">
+                    {company.name}
+                  </h3>
+                  <Link
+                    isExternal
+                    showAnchorIcon
+                    anchorIcon={<LinkIcon />}
+                    className="ml-2"
+                    href={company.src}
                   />
                 </div>
-              ))}
+                <p className="text-small text-foreground/80">{date}</p>
+                <p className="text-small text-foreground/80">{location}</p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+                {technologies.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex justify-center items-center w-full"
+                  >
+                    <Textarea
+                      isDisabled
+                      classNames={{
+                        input: "text-center font-bold text-m text-primary-200",
+                      }}
+                      color="primary"
+                      defaultValue={tech}
+                      maxRows={1}
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </CardBody>
-    </Card>
+        </CardBody>
+      </Card>
+    </>
   );
 };
