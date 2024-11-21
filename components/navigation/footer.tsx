@@ -1,6 +1,6 @@
 import { Link } from "@nextui-org/link";
 
-import { GithubIcon, LinkedInIcon } from "../icons";
+import { GithubIcon, LinkedInIcon } from "../icons/general-icons";
 
 import { siteConfig } from "@/config/site";
 

@@ -3,8 +3,8 @@ import { Divider } from "@nextui-org/divider";
 import { Image } from "@nextui-org/image";
 import { Textarea } from "@nextui-org/input";
 
-import { GithubIcon } from "../icons";
-import { WebsiteIcon } from "../icons";
+import { GithubIcon } from "../icons/general-icons";
+import { WebsiteIcon } from "../icons/general-icons";
 import { LinkButton } from "../buttons/link-button";
 
 import { ImageType } from "@/types";

@@ -1,7 +1,7 @@
 import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 
-import { DownloadIcon } from "../icons";
+import { DownloadIcon } from "../icons/general-icons";
 
 interface Props {
   href: string;

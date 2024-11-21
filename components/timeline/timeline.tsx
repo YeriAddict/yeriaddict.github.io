@@ -7,6 +7,11 @@ import dynamic from "next/dynamic";
 import { Image } from "@nextui-org/image";
 import { Spacer } from "@nextui-org/spacer";
 
+import {
+  FranceIcon,
+  UnitedStatesOfAmericaIcon,
+} from "../icons/countries-icons";
+
 interface Props {
   timelineContent: {
     alt: string;
@@ -49,7 +54,21 @@ export const Timeline = ({ timelineContent, timelineItems }: Props) => {
               onClick={() => window.open(content.url, "_blank")}
             />
             <Spacer y={2} />
-            <p className="text-primary-500">{content.location}</p>
+            <div className="flex flex-row items-center text-primary-500">
+              {content.location?.split(", ").pop()?.trim() === "USA" ? (
+                <>
+                  <UnitedStatesOfAmericaIcon height={18} width={24} />
+                  <Spacer x={2} />
+                  <span>{content.location}</span>
+                </>
+              ) : (
+                <>
+                  <FranceIcon height={18} width={24} />
+                  <Spacer x={2} />
+                  <span>{content.location}</span>
+                </>
+              )}
+            </div>
           </React.Fragment>
         ))}
       </Chrono>

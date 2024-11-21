@@ -2,8 +2,13 @@ import { Card, CardBody } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
 import { Textarea } from "@nextui-org/input";
 import { Link } from "@nextui-org/link";
+import { Spacer } from "@nextui-org/spacer";
 
-import { LinkIcon } from "../icons";
+import { LinkIcon } from "../icons/general-icons";
+import {
+  SwitzerlandIcon,
+  UnitedStatesOfAmericaIcon,
+} from "../icons/countries-icons";
 
 import { CompanyType, ImageType } from "@/types";
 
@@ -59,7 +64,21 @@ export const ExperienceCard = ({
                   />
                 </div>
                 <p className="text-small text-foreground/80">{date}</p>
-                <p className="text-small text-foreground/80">{location}</p>
+                <div className="flex flex-row items-center text-small text-foreground/80">
+                  {location?.split(", ").pop()?.trim() === "USA" ? (
+                    <>
+                      <span>{location}</span>
+                      <Spacer x={2} />
+                      <UnitedStatesOfAmericaIcon height={18} width={24} />
+                    </>
+                  ) : (
+                    <>
+                      <span>{location}</span>
+                      <Spacer x={2} />
+                      <SwitzerlandIcon height={18} width={24} />
+                    </>
+                  )}
+                </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">

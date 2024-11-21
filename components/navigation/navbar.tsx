@@ -15,7 +15,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 import { useState } from "react";
 
-import { RabbitIcon } from "../icons";
+import { RabbitIcon } from "../icons/general-icons";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
