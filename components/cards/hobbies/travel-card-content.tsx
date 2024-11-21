@@ -9,20 +9,19 @@ export const TravelCardContent = {
   cardBody: (
     <>
       <div className="flex flex-col">
-        <p>I am passionate about history and culture.</p>
-        <Spacer y={2} />
+        <p>📖 I am passionate about history!</p>
+        <Spacer y={6} />
         <p>
-          I have been deeply engaged in studying civilizations and their
-          histories, particularly in the European and Mediterranean regions, as
-          I was born in France and have lived there ever since.
+          🎠 I enjoy reading about civilizations and their histories,
+          particularly in the European region where I am from.
         </p>
-        <Spacer y={2} />
+        <Spacer y={6} />
         <p>
-          Traveling allows me to fuel my passion for exploring, learning, and
-          discovering new cultures and traditions.
+          🧳 Traveling fuels my passion for exploring, learning, and discovering
+          new cultures and traditions.
         </p>
-        <Spacer y={2} />
-        <p>I look forward to my next adventure!</p>
+        <Spacer y={6} />
+        <p>🚀 I am looking forward to my next adventure!</p>
       </div>
     </>
   ),
