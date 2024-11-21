@@ -7,7 +7,7 @@ import "swiper/css/effect-flip";
 
 import { Spacer } from "@nextui-org/spacer";
 import React from "react";
-import { Mousewheel, Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Timeline } from "@/components/timeline/timeline";
@@ -24,8 +24,7 @@ export default function AboutPageComponent() {
             className="w-full h-full"
             direction={"horizontal"}
             loop={true}
-            modules={[Mousewheel, Pagination, Navigation]}
-            mousewheel={true}
+            modules={[Pagination, Navigation]}
             navigation={true}
             pagination={{
               clickable: true,
