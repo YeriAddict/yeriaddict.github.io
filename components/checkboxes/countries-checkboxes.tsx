@@ -1,7 +1,11 @@
 import { Checkbox, CheckboxGroup } from "@nextui-org/checkbox";
 import { Image } from "@nextui-org/image";
 
-export const CountriesCheckboxes = () => {
+interface Props {
+  label: string;
+}
+
+export const CountriesCheckboxes = ({ label }: Props) => {
   return (
     <>
       <CheckboxGroup
@@ -17,7 +21,7 @@ export const CountriesCheckboxes = () => {
           "austria",
           "liechtenstein",
         ]}
-        label="Countries I have visited:"
+        label={label}
       >
         <Checkbox className="cursor-default" value="france">
           <div className="flex flex-row gap-2">

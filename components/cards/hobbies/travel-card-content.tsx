@@ -27,7 +27,7 @@ export const TravelCardContent = {
   ),
   modalBody: (
     <>
-      <CountriesCheckboxes />
+      <CountriesCheckboxes label={"Countries I have visited:"} />
       <p>Honorable mentions:</p>
       <div className="flex flex-row flex-wrap justify-evenly gap-6">
         <TravelImageCard
