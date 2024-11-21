@@ -1,7 +1,7 @@
 import { Checkbox, CheckboxGroup } from "@nextui-org/checkbox";
 import { Image } from "@nextui-org/image";
 
-export default function CountriesCheckboxes() {
+export const CountriesCheckboxes = () => {
   return (
     <>
       <CheckboxGroup
@@ -110,4 +110,4 @@ export default function CountriesCheckboxes() {
       </CheckboxGroup>
     </>
   );
-}
+};

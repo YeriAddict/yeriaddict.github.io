@@ -1,8 +1,8 @@
 import { Spacer } from "@nextui-org/spacer";
 
-import TravelImageCard from "../travel-image-card";
+import { TravelImageCard } from "../travel-image-card";
 
-import CountriesCheckboxes from "@/components/checkboxes/countries-checkboxes";
+import { CountriesCheckboxes } from "@/components/checkboxes/countries-checkboxes";
 
 export const TravelCardContent = {
   title: "⛱️ Travel",

@@ -7,7 +7,7 @@ interface Props {
   text: string;
 }
 
-export default function LinkButton({ href, icon, text }: Props) {
+export const LinkButton = ({ href, icon, text }: Props) => {
   return (
     <>
       <Button
@@ -22,4 +22,4 @@ export default function LinkButton({ href, icon, text }: Props) {
       </Button>
     </>
   );
-}
+};

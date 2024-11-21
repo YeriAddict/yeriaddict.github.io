@@ -8,7 +8,7 @@ interface Props {
   src: string;
 }
 
-export default function TravelImageCard({ title, alt, src }: Props) {
+export const TravelImageCard = ({ title, alt, src }: Props) => {
   return (
     <Card className="flex-1">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
@@ -24,4 +24,4 @@ export default function TravelImageCard({ title, alt, src }: Props) {
       />
     </Card>
   );
-}
+};

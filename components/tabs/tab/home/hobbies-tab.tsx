@@ -6,7 +6,7 @@ import { TravelCardContent } from "@/components/cards/hobbies/travel-card-conten
 import { GamesCardContent } from "@/components/cards/hobbies/games-card-content";
 import { MusicCardContent } from "@/components/cards/hobbies/music-card-content";
 
-export default function HobbiesTab() {
+export const HobbiesTab = () => {
   return (
     <>
       <Card>
@@ -34,4 +34,4 @@ export default function HobbiesTab() {
       </Card>
     </>
   );
-}
+};

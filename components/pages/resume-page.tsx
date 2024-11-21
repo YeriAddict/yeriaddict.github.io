@@ -2,7 +2,7 @@ import { Card } from "@nextui-org/card";
 import { Spacer } from "@nextui-org/spacer";
 import Image from "next/image";
 
-import DownloadButton from "@/components/buttons/download-button";
+import { DownloadButton } from "@/components/buttons/download-button";
 
 export default function ResumePageComponent() {
   return (

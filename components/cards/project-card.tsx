@@ -5,7 +5,7 @@ import { Textarea } from "@nextui-org/input";
 
 import { GithubIcon } from "../icons";
 import { WebsiteIcon } from "../icons";
-import LinkButton from "../buttons/link-button";
+import { LinkButton } from "../buttons/link-button";
 
 import { ImageType } from "@/types";
 

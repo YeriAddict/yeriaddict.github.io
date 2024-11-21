@@ -9,7 +9,7 @@ interface Props {
   text: string;
 }
 
-export default function DownloadButton({ href, download, text }: Props) {
+export const DownloadButton = ({ href, download, text }: Props) => {
   return (
     <>
       <Button
@@ -26,4 +26,4 @@ export default function DownloadButton({ href, download, text }: Props) {
       </Button>
     </>
   );
-}
+};

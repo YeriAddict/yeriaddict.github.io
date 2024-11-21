@@ -1,10 +1,10 @@
 import { Tab, Tabs } from "@nextui-org/tabs";
 
-import SkillsTab from "./tab/home/skills-tab";
-import HobbiesTab from "./tab/home/hobbies-tab";
-import FactsTab from "./tab/home/facts-tab";
+import { SkillsTab } from "./tab/home/skills-tab";
+import { HobbiesTab } from "./tab/home/hobbies-tab";
+import { FactsTab } from "./tab/home/facts-tab";
 
-export default function HomeTabs() {
+export const HomeTabs = () => {
   return (
     <>
       <div className="flex w-full flex-col">
@@ -49,4 +49,4 @@ export default function HomeTabs() {
       </div>
     </>
   );
-}
+};

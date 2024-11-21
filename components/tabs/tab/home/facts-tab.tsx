@@ -1,6 +1,6 @@
 import { Card, CardBody } from "@nextui-org/card";
 
-export default function FactsTab() {
+export const FactsTab = () => {
   return (
     <>
       <Card>
@@ -8,4 +8,4 @@ export default function FactsTab() {
       </Card>
     </>
   );
-}
+};
