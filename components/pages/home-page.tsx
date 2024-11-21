@@ -30,8 +30,8 @@ export default function HomePageComponent() {
                 <p className="hand-motion">🤚</p>
               </h1>
               <p>
-                ⬇️ for more details! (Work in progress ~85%; need to change
-                colors, fonts, contents etc...)
+                ⬇️ for more details! (Work in progress ~90%; content is over but
+                need to change all colors, fonts etc and write README.md)
               </p>
             </div>
             <Spacer y={4} />

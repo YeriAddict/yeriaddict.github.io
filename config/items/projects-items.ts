@@ -1,5 +1,16 @@
 export const projects = [
   {
+    header: "Portfolio Website",
+    body: "My personal portfolio website",
+    technologies: ["TypeScript", "React.js"],
+    image: {
+      src: "/rabbit.png",
+      alt: "Portfolio Website",
+    },
+    githubLink: "https://github.com/YeriAddict/yeriaddict.github.io",
+    websiteLink: "https://yeriaddict.github.io/",
+  },
+  {
     header: "Iris Recognition",
     body: "An iris recognition model inspired by Li Ma's research on biometric recognition methods based on Gabor multichannel filtering",
     technologies: ["Python", "OpenCV"],
