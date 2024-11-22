@@ -140,7 +140,7 @@ export const GamesCardContent = {
         <Spacer x={6} />
         <div className="flex flex-col gap-2">
           <p>
-            <strong>Peak Rank</strong>: Immortal ~2000th (top 0.0001%)
+            <strong>Peak Rank</strong>: Immortal ~2000th (top 0.01%)
           </p>
           <p>
             <strong>Main role</strong>: Position 4
