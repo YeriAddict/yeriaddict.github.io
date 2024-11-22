@@ -20,7 +20,7 @@ export const HomeTabs = () => {
             key="skills"
             title={
               <div className="flex items-center space-x-2">
-                <p>🧠 Skills</p>
+                <p className="text-foreground font-bold">🧠 Skills</p>
               </div>
             }
           >
@@ -30,7 +30,7 @@ export const HomeTabs = () => {
             key="hobbies"
             title={
               <div className="flex items-center space-x-2">
-                <p>🕹️ Hobbies</p>
+                <p className="text-foreground font-bold">🕹️ Hobbies</p>
               </div>
             }
           >
@@ -40,7 +40,7 @@ export const HomeTabs = () => {
             key="fun_facts"
             title={
               <div className="flex items-center space-x-2">
-                <p>🫢 Fun Facts</p>
+                <p className="text-foreground font-bold">🫢 Fun Facts</p>
               </div>
             }
           >
