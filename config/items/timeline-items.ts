@@ -20,19 +20,19 @@ export const timelineItems = [
 export const timelineContent = [
   {
     alt: "Columbia University",
-    src: "/timeline_images/columbia_university.jpg",
+    src: "/images/timeline_images/columbia_university.jpg",
     url: "https://datascience.columbia.edu/",
     location: "New York City, NY, USA",
   },
   {
     alt: "Telecom Saint-Etienne",
-    src: "/timeline_images/telecom_saint_etienne.jpeg",
+    src: "/images/timeline_images/telecom_saint_etienne.jpeg",
     url: "https://www.telecom-st-etienne.fr/en/",
     location: "Saint-Étienne, France",
   },
   {
     alt: "Lycee du Parc",
-    src: "/timeline_images/lycee_du_parc.jpg",
+    src: "/images/timeline_images/lycee_du_parc.jpg",
     url: "https://lyceeduparc.fr/ldp/rubrique1.html",
     location: "Lyon, France",
   },

@@ -14,7 +14,7 @@ export const experiences = [
       "Microsoft Azure",
     ],
     image: {
-      src: "/experiences_images/analysis_group.png",
+      src: "/images/experiences_images/analysis_group.png",
       alt: "Analysis Group",
     },
   },
@@ -28,7 +28,7 @@ export const experiences = [
     location: "Villaz-Saint-Pierre, FR, CHE",
     technologies: ["Java & Android", "TypeScript & Vue.js", "Microsoft Azure"],
     image: {
-      src: "/experiences_images/bionomous.jpg",
+      src: "/images/experiences_images/bionomous.jpg",
       alt: "Bionomous SA",
     },
   },

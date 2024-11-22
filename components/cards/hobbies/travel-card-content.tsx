@@ -32,17 +32,17 @@ export const TravelCardContent = {
       <div className="flex flex-row flex-wrap justify-evenly gap-6">
         <TravelImageCard
           alt="Thun"
-          src="/hobbies_images/travel_images/thun.jpg"
+          src="/images/hobbies_images/travel_images/thun.jpg"
           title="Thun, Switzerland"
         />
         <TravelImageCard
           alt="Yvoire"
-          src="/hobbies_images/travel_images/yvoire.jpg"
+          src="/images/hobbies_images/travel_images/yvoire.jpg"
           title="Yvoire, France"
         />
         <TravelImageCard
           alt="Annecy"
-          src="/hobbies_images/travel_images/annecy.jpg"
+          src="/images/hobbies_images/travel_images/annecy.jpg"
           title="Annecy, France"
         />
       </div>

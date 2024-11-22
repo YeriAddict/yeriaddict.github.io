@@ -32,7 +32,7 @@ export const GamesCardContent = {
           <Image
             height={36}
             radius="sm"
-            src={"/hobbies_images/games_images/dota2.png"}
+            src={"/images/hobbies_images/games_images/dota2.png"}
             width={36}
           />
           <Spacer x={2} />
@@ -48,7 +48,7 @@ export const GamesCardContent = {
           <Image
             height={36}
             radius="sm"
-            src={"/hobbies_images/games_images/lol.png"}
+            src={"/images/hobbies_images/games_images/lol.png"}
             width={36}
           />
           <Spacer x={2} />
@@ -64,7 +64,7 @@ export const GamesCardContent = {
           <Image
             height={36}
             radius="sm"
-            src={"/hobbies_images/games_images/warcraft3.png"}
+            src={"/images/hobbies_images/games_images/warcraft3.png"}
             width={36}
           />
           <Spacer x={2} />
@@ -80,7 +80,7 @@ export const GamesCardContent = {
           <Image
             height={36}
             radius="sm"
-            src={"/hobbies_images/games_images/dark_souls.png"}
+            src={"/images/hobbies_images/games_images/dark_souls.png"}
             width={36}
           />
           <Spacer x={2} />
@@ -96,7 +96,7 @@ export const GamesCardContent = {
           <Image
             height={36}
             radius="sm"
-            src={"/hobbies_images/games_images/metro.png"}
+            src={"/images/hobbies_images/games_images/metro.png"}
             width={36}
           />
           <Spacer x={2} />
@@ -112,7 +112,7 @@ export const GamesCardContent = {
           <Image
             height={36}
             radius="sm"
-            src={"/hobbies_images/games_images/witcher.png"}
+            src={"/images/hobbies_images/games_images/witcher.png"}
             width={36}
           />
           <Spacer x={2} />
@@ -134,7 +134,7 @@ export const GamesCardContent = {
         <Image
           height={128}
           radius="sm"
-          src={"/hobbies_images/games_images/dota2_rank.jpg"}
+          src={"/images/hobbies_images/games_images/dota2_rank.jpg"}
           width={128}
         />
         <Spacer x={6} />

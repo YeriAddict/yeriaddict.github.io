@@ -25,14 +25,15 @@ export default function HomePageComponent() {
                   loop
                   backSpeed={50}
                   strings={[
-                    "Hi! I am Denis!",
-                    "Bonjour! Je suis Denis!",
-                    "Hallo! Ich bin Denis!",
-                    "Привет! Я Денис!",
-                    "អរុណសួស្តី! ខ្ញុំគឺ Denis!",
+                    'Hi! I am <span class="name-highlight">Denis</span>!',
+                    'Bonjour! Je suis <span class="name-highlight">Denis</span>!',
+                    'Hallo! Ich bin <span class="name-highlight">Denis</span>!',
+                    'Привет! Я <span class="name-highlight">Денис</span>!',
+                    'អរុណសួស្តី! ខ្ញុំគឺ <span class="name-highlight">Denis</span>!',
                   ]}
                   typeSpeed={60}
                 />
+
                 <p className="hand-motion">🤚</p>
               </h1>
               <p>⬇️ for more details!</p>
