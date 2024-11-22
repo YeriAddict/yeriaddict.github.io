@@ -23,7 +23,7 @@ export const MusicCardContent = {
   ),
   modalBody: (
     <>
-      <p>My current favorite songs:</p>
+      <p className="text-md font-bold">My current favorite songs:</p>
       <div className="flex flex-row gap-4 justify-between">
         <iframe
           className="w-1/2"
@@ -38,7 +38,7 @@ export const MusicCardContent = {
           title="last_drop"
         />
       </div>
-      <p>Honorable mention: Red Velvet 🙂</p>
+      <p className="text-md font-bold">Honorable mention: Red Velvet 🙂</p>
     </>
   ),
 };

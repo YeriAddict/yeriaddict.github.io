@@ -20,7 +20,8 @@ export const CountriesCheckboxes = ({ label }: Props) => {
     <>
       <CheckboxGroup
         isReadOnly
-        color="secondary"
+        classNames={{ label: "text-md font-bold" }}
+        color="success"
         defaultValue={[
           "france",
           "cambodia",

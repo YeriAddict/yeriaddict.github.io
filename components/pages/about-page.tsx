@@ -9,6 +9,7 @@ import { Spacer } from "@nextui-org/spacer";
 import React from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Divider } from "@nextui-org/divider";
 
 import { Timeline } from "@/components/timeline/timeline";
 import { ExperienceCard } from "@/components/cards/experience-card";
@@ -19,7 +20,7 @@ export default function AboutPageComponent() {
   return (
     <>
       <div className="container mx-auto max-w-7xl pt-16 flex-grow">
-        <div className="h-[1400px] border border-solid border-black pt-12 mb-6">
+        <div className="h-[1400px] pt-12 mb-6">
           <Swiper
             className="w-full h-full"
             direction={"horizontal"}
@@ -34,8 +35,10 @@ export default function AboutPageComponent() {
           >
             <SwiperSlide key={1}>
               <div className="flex flex-col w-full justify-start items-center">
-                <div className="w-full flex justify-center">
+                <div className="w-full flex flex-col items-center justify-center">
                   <h1 className="text-4xl font-bold">EDUCATION</h1>
+                  <Spacer y={2} />
+                  <Divider className="bg-primary-500" />
                 </div>
                 <Spacer y={6} />
                 <div className="w-full flex justify-center items-center">
@@ -48,8 +51,10 @@ export default function AboutPageComponent() {
             </SwiperSlide>
             <SwiperSlide key={2}>
               <div className="flex flex-col w-full justify-start items-center">
-                <div className="w-full flex justify-center">
+                <div className="w-full flex flex-col items-center justify-center">
                   <h1 className="text-4xl font-bold">EXPERIENCE</h1>
+                  <Spacer y={2} />
+                  <Divider className="bg-primary-500" />
                 </div>
                 {experiences.map((experience, index) => (
                   <React.Fragment key={index}>

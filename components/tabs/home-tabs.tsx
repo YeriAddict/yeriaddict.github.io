@@ -11,9 +11,10 @@ export const HomeTabs = () => {
         <Tabs
           fullWidth
           aria-label="Options"
+          className="bg-primary-900"
           color="primary"
           placement="top"
-          variant="bordered"
+          variant="light"
         >
           <Tab
             key="skills"

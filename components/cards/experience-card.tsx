@@ -34,9 +34,10 @@ export const ExperienceCard = ({
       <Card
         isHoverable
         isPressable
+        className="bg-primary-700"
         onPress={() => window.open(company.src, "_blank")}
       >
-        <CardBody>
+        <CardBody className="hover:bg-primary-500">
           <div className="flex flex-row items-start gap-6">
             <div className="flex-shrink-0">
               <Image
@@ -50,7 +51,7 @@ export const ExperienceCard = ({
             </div>
             <div className="flex flex-col flex-grow">
               <div className="flex flex-col gap-2">
-                <h1 className="text-large font-medium">{title}</h1>
+                <h1 className="text-large font-md">{title}</h1>
                 <div className="flex items-center">
                   <h3 className="font-semibold text-foreground/90">
                     {company.name}

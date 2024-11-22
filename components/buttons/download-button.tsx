@@ -14,13 +14,12 @@ export const DownloadButton = ({ href, download, text }: Props) => {
     <>
       <Button
         as={Link}
-        className="hover:bg-primary-700"
-        color="primary"
+        className="bg-primary-400 hover:bg-primary-200 text-foreground"
         download={download}
         href={href}
         size="lg"
         startContent={<DownloadIcon />}
-        variant="ghost"
+        variant="shadow"
       >
         {text}
       </Button>

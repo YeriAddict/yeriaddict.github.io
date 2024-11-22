@@ -28,22 +28,22 @@ export const TravelCardContent = {
   modalBody: (
     <>
       <CountriesCheckboxes label={"Countries I have visited:"} />
-      <p>Honorable mentions:</p>
+      <p className="text-md font-bold">Honorable mentions:</p>
       <div className="flex flex-row flex-wrap justify-evenly gap-6">
         <TravelImageCard
           alt="Thun"
           src="/hobbies_images/travel_images/thun.jpg"
-          title="Thun, Bern, Switzerland"
+          title="Thun, Switzerland"
         />
         <TravelImageCard
           alt="Yvoire"
           src="/hobbies_images/travel_images/yvoire.jpg"
-          title="Yvoire, Haute-Savoie, France"
+          title="Yvoire, France"
         />
         <TravelImageCard
           alt="Annecy"
           src="/hobbies_images/travel_images/annecy.jpg"
-          title="Annecy, Haute-Savoie, France"
+          title="Annecy, France"
         />
       </div>
     </>

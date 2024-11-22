@@ -9,7 +9,7 @@ import { MusicCardContent } from "@/components/cards/hobbies/music-card-content"
 export const HobbiesTab = () => {
   return (
     <>
-      <Card>
+      <Card className="bg-primary-900">
         <CardBody>
           <div className="flex flex-row flex-wrap justify-evenly">
             <HobbyCard

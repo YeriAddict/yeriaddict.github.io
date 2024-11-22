@@ -26,7 +26,7 @@ export const GamesCardContent = {
   ),
   modalBody: (
     <>
-      <p>My favorite games:</p>
+      <p className="text-md font-bold">My favorite games:</p>
       <div className="flex flex-col gap-4">
         <div className="flex flex-row">
           <Image
@@ -36,7 +36,11 @@ export const GamesCardContent = {
             width={36}
           />
           <Spacer x={2} />
-          <Link href="https://www.dota2.com/home" underline="focus">
+          <Link
+            className="text-primary-200"
+            href="https://www.dota2.com/home"
+            underline="focus"
+          >
             Dota 2
           </Link>
         </div>
@@ -48,7 +52,11 @@ export const GamesCardContent = {
             width={36}
           />
           <Spacer x={2} />
-          <Link href="https://www.dota2.com/home" underline="focus">
+          <Link
+            className="text-primary-200"
+            href="https://www.dota2.com/home"
+            underline="focus"
+          >
             League of Legends
           </Link>
         </div>
@@ -60,7 +68,11 @@ export const GamesCardContent = {
             width={36}
           />
           <Spacer x={2} />
-          <Link href="https://warcraft3.blizzard.com/en-us/" underline="focus">
+          <Link
+            className="text-primary-200"
+            href="https://warcraft3.blizzard.com/en-us/"
+            underline="focus"
+          >
             Warcraft III
           </Link>
         </div>
@@ -73,6 +85,7 @@ export const GamesCardContent = {
           />
           <Spacer x={2} />
           <Link
+            className="text-primary-200"
             href="https://en.bandainamcoent.eu/dark-souls/dark-souls"
             underline="focus"
           >
@@ -87,7 +100,11 @@ export const GamesCardContent = {
             width={36}
           />
           <Spacer x={2} />
-          <Link href="https://www.4a-games.com.mt/our-games" underline="focus">
+          <Link
+            className="text-primary-200"
+            href="https://www.4a-games.com.mt/our-games"
+            underline="focus"
+          >
             Metro
           </Link>
         </div>
@@ -99,14 +116,20 @@ export const GamesCardContent = {
             width={36}
           />
           <Spacer x={2} />
-          <Link href="https://www.thewitcher.com/us/en" underline="focus">
+          <Link
+            className="text-primary-200"
+            href="https://www.thewitcher.com/us/en"
+            underline="focus"
+          >
             The Witcher
           </Link>
         </div>
       </div>
       <p>and so many more...</p>
 
-      <p>Honorable mention (read if you play Dota):</p>
+      <p className="text-md font-bold">
+        Honorable mention (read if you play Dota):
+      </p>
       <div className="flex flex-row">
         <Image
           height={128}

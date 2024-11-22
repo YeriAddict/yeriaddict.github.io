@@ -8,6 +8,7 @@ export const SkillsAccordion = ({ skillsContent }: Props) => {
   return (
     <>
       <Accordion
+        className="bg-primary-700 border-primary-600"
         defaultExpandedKeys={["0", "1", "2"]}
         selectionMode="multiple"
         variant="bordered"

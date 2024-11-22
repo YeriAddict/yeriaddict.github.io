@@ -6,7 +6,7 @@ import { SkillsAccordionContent } from "@/components/accordions/skills/skills-ac
 export const SkillsTab = () => {
   return (
     <>
-      <Card>
+      <Card className="bg-primary-900">
         <CardBody>
           <SkillsAccordion skillsContent={SkillsAccordionContent} />
         </CardBody>

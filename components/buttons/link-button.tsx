@@ -12,11 +12,11 @@ export const LinkButton = ({ href, icon, text }: Props) => {
     <>
       <Button
         as={Link}
-        className="hover:bg-primary-700"
+        className="bg-primary-400 hover:bg-primary-200 text-foreground"
         color="primary"
         href={href}
         startContent={icon}
-        variant="ghost"
+        variant="shadow"
       >
         {text}
       </Button>

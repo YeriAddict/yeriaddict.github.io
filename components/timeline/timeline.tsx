@@ -30,16 +30,20 @@ export const Timeline = ({ timelineContent, timelineItems }: Props) => {
   return (
     <>
       <Chrono
+        activeItemIndex={3}
         cardHeight={380}
         disableClickOnCircle={true}
         disableToolbar={true}
         items={timelineItems}
         mode="VERTICAL_ALTERNATING"
         theme={{
-          primary: "blue",
+          primary: "#2D353D",
           secondary: "",
-          cardBgColor: "white",
-          cardForeColor: "black",
+          cardBgColor: "#D8DDE3",
+          cardForeColor: "#828B90",
+          cardSubtitleColor: "#1F2833",
+          cardTitleColor: "#828B90",
+          titleColor: "#828B90",
         }}
         timelinePointDimension={12}
         timelinePointShape="diamond"
@@ -59,13 +63,13 @@ export const Timeline = ({ timelineContent, timelineItems }: Props) => {
                 <>
                   <UnitedStatesOfAmericaIcon height={18} width={24} />
                   <Spacer x={2} />
-                  <span>{content.location}</span>
+                  <span className="text-[#131C29]">{content.location}</span>
                 </>
               ) : (
                 <>
                   <FranceIcon height={18} width={24} />
                   <Spacer x={2} />
-                  <span>{content.location}</span>
+                  <span className="text-[#131C29]">{content.location}</span>
                 </>
               )}
             </div>

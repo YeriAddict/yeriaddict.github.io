@@ -18,8 +18,7 @@ export const HobbyModal = ({ modalBody }: Props) => {
   return (
     <>
       <Button
-        className="w-full h-[40px]"
-        color="secondary"
+        className="bg-primary-400 hover:bg-primary-200 text-foreground w-full h-[40px]"
         radius="sm"
         onPress={onOpen}
       >
@@ -29,11 +28,11 @@ export const HobbyModal = ({ modalBody }: Props) => {
         backdrop="opaque"
         classNames={{
           body: "py-6",
-          backdrop: "bg-[#292f46]/50 backdrop-opacity-40",
-          base: "border-[#292f46] bg-[#19172c] dark:bg-[#19172c] text-[#a8b0d3]",
-          header: "border-b-[1px] border-[#292f46]",
-          footer: "border-t-[1px] border-[#292f46]",
-          closeButton: "hover:bg-white/5 active:bg-white/10",
+          backdrop: "bg-primary-900/50 backdrop-opacity-40",
+          base: "bg-primary-700 border-primary-600 text-foreground",
+          header: "border-primary-500 border-b-[1px]",
+          footer: "border-primary-500 border-t-[1px]",
+          closeButton: "hover:bg-primary-200 active:bg-primary-300",
         }}
         isOpen={isOpen}
         radius="lg"
@@ -45,13 +44,13 @@ export const HobbyModal = ({ modalBody }: Props) => {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                More details!
+                <p className="text-lg">More details!</p>
               </ModalHeader>
               <ModalBody>{modalBody}</ModalBody>
               <ModalFooter className="flex-col items-center justify-center">
                 <Button
-                  className="w-[20%]"
-                  color="success"
+                  className="bg-primary-400 hover:bg-primary-200 text-foreground w-[20%]"
+                  radius="sm"
                   variant="shadow"
                   onPress={onClose}
                 >
