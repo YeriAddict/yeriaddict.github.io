@@ -17,29 +17,32 @@ export default function HomePageComponent() {
                 alt="Me"
                 className="object-cover rounded-full"
                 height={400}
-                src="/experiences_images/analysis_group.png"
+                src="/me.jpg"
                 width={400}
               />
               <h1 className="text-2xl md:text-4xl font-bold flex items-center space-x-2">
                 <ReactTyped
                   loop
                   backSpeed={50}
-                  strings={["Hi! I am Denis!", "Bonjour! Je suis Denis!"]}
+                  strings={[
+                    "Hi! I am Denis!",
+                    "Bonjour! Je suis Denis!",
+                    "Hallo! Ich bin Denis!",
+                    "Привет! Я Денис!",
+                    "អរុណសួស្តី! ខ្ញុំគឺ Denis!",
+                  ]}
                   typeSpeed={60}
                 />
                 <p className="hand-motion">🤚</p>
               </h1>
-              <p>
-                ⬇️ for more details! (Work in progress ~90%; content is over but
-                need to change all colors, fonts etc and write README.md)
-              </p>
+              <p>⬇️ for more details!</p>
             </div>
             <Spacer y={4} />
           </div>
 
           <div className="slide flex h-full flex-col" id="details">
             <Spacer y={14} />
-            <div className="flex flex-col justify-center items-center gap-4">
+            <div className="flex flex-col justify-center items-center">
               <HomeTabs />
             </div>
           </div>
