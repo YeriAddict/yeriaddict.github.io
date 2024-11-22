@@ -12,7 +12,7 @@ interface Props {
 
 export const TravelImageCard = ({ title, alt, src }: Props) => {
   return (
-    <Card className="flex-1 bg-primary-600 border-primary-500">
+    <Card className="flex-1 bg-primary-600 border-primary-500 overflow-auto">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-center">
         <div className="flex flex-row items-center">
           {title?.split(", ").pop()?.trim() === "Switzerland" ? (
