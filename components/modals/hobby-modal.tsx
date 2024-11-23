@@ -46,7 +46,7 @@ export const HobbyModal = ({ modalBody }: Props) => {
               <ModalHeader className="flex flex-col gap-1">
                 <p className="text-lg">More details!</p>
               </ModalHeader>
-              <ModalBody>{modalBody}</ModalBody>
+              <ModalBody className="overflow-auto">{modalBody}</ModalBody>
               <ModalFooter className="flex-col items-center justify-center">
                 <Button
                   className="bg-primary-400 hover:bg-primary-200 text-foreground w-[20%]"

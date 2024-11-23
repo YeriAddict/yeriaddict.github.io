@@ -29,7 +29,7 @@ export const TravelCardContent = {
     <>
       <CountriesCheckboxes label={"Countries I have visited:"} />
       <p className="text-md font-bold">Honorable mentions:</p>
-      <div className="flex flex-row flex-wrap justify-evenly gap-6">
+      <div className="flex flex-wrap gap-6 justify-evenly lg:flex-row flex-col">
         <TravelImageCard
           alt="Thun"
           src="/images/hobbies_images/travel_images/thun.jpg"

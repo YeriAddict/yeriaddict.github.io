@@ -34,10 +34,9 @@ export const TravelImageCard = ({ title, alt, src }: Props) => {
       <Image
         isZoomed
         alt={alt}
-        className="object-cover"
+        className="object-cover w-[400px] sm:w-[320px]"
         height={300}
         src={src}
-        width={300}
       />
     </Card>
   );
