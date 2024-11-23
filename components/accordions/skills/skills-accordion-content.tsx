@@ -80,7 +80,7 @@ export const SkillsAccordionContent = [
           <Chip className="bg-warning-900" size="sm" variant="flat">
             German
           </Chip>{" "}
-          and read{" "}
+          and read the{" "}
           <Chip className="bg-warning-900" size="sm" variant="flat">
             Russian
           </Chip>{" "}
