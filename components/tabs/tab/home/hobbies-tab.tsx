@@ -1,6 +1,8 @@
 import { Card, CardBody } from "@nextui-org/card";
 import { Spacer } from "@nextui-org/spacer";
 
+import { HobbiesTabs } from "../../hobbies-tabs";
+
 import { HobbyCard } from "@/components/cards/hobby-card";
 import { TravelCardContent } from "@/components/cards/hobbies/travel-card-content";
 import { GamesCardContent } from "@/components/cards/hobbies/games-card-content";
@@ -11,7 +13,7 @@ export const HobbiesTab = () => {
     <>
       <Card className="bg-primary-900">
         <CardBody>
-          <div className="flex flex-row flex-wrap justify-evenly">
+          <div className="hidden lg:flex flex-row flex-wrap justify-evenly">
             <HobbyCard
               cardBody={TravelCardContent.cardBody}
               modalBody={TravelCardContent.modalBody}
@@ -28,6 +30,14 @@ export const HobbiesTab = () => {
               cardBody={MusicCardContent.cardBody}
               modalBody={MusicCardContent.modalBody}
               title={MusicCardContent.title}
+            />
+          </div>
+
+          <div className="block lg:hidden">
+            <HobbiesTabs
+              GamesCardContent={GamesCardContent}
+              MusicCardContent={MusicCardContent}
+              TravelCardContent={TravelCardContent}
             />
           </div>
         </CardBody>

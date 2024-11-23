@@ -13,3 +13,9 @@ export type CompanyType = {
   name: string;
   src: string;
 };
+
+export type HobbyCardType = {
+  title: string;
+  cardBody: JSX.Element;
+  modalBody: JSX.Element;
+};
