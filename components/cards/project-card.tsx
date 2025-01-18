@@ -51,7 +51,7 @@ export const ProjectCard = ({
                     classNames={{
                       input: "text-center font-bold text-m text-primary-200",
                     }}
-                    color="primary"
+                    color="secondary"
                     defaultValue={tech}
                     maxRows={1}
                   />
