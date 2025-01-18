@@ -1,6 +1,6 @@
-import { Link } from "@nextui-org/link";
-import { Image } from "@nextui-org/image";
-import { Spacer } from "@nextui-org/spacer";
+import { Link } from "@heroui/link";
+import { Image } from "@heroui/image";
+import { Spacer } from "@heroui/spacer";
 
 export const GamesCardContent = {
   title: "🎮 Video Games",

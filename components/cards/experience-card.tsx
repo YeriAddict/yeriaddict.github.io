@@ -1,8 +1,8 @@
-import { Card, CardBody } from "@nextui-org/card";
-import { Image } from "@nextui-org/image";
-import { Textarea } from "@nextui-org/input";
-import { Link } from "@nextui-org/link";
-import { Spacer } from "@nextui-org/spacer";
+import { Card, CardBody } from "@heroui/card";
+import { Image } from "@heroui/image";
+import { Textarea } from "@heroui/input";
+import { Link } from "@heroui/link";
+import { Spacer } from "@heroui/spacer";
 
 import { LinkIcon } from "../icons/general-icons";
 import {

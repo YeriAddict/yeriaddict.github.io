@@ -1,4 +1,4 @@
-import { Card, CardBody } from "@nextui-org/card";
+import { Card, CardBody } from "@heroui/card";
 
 import { SkillsAccordion } from "@/components/accordions/skills-accordion";
 import { SkillsAccordionContent } from "@/components/accordions/skills/skills-accordion-content";

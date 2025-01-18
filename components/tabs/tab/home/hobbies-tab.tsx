@@ -1,5 +1,5 @@
-import { Card, CardBody } from "@nextui-org/card";
-import { Spacer } from "@nextui-org/spacer";
+import { Card, CardBody } from "@heroui/card";
+import { Spacer } from "@heroui/spacer";
 
 import { HobbiesTabs } from "../../hobbies-tabs";
 

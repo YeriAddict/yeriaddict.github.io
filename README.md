@@ -45,7 +45,7 @@ This project uses the following technologies:
 
 #### User Interface
 
-- **[NextUI v2](https://nextui.org/)**  
+- **[HeroUI](https://www.heroui.com/)**  
   This was the main UI component library that I used to build my website. The components I utilized include:
   - **Accordion** ([Docs](https://nextui.org/docs/components/accordion))
   - **Button** ([Docs](https://nextui.org/docs/components/button))

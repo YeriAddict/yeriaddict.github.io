@@ -1,7 +1,7 @@
-import { Card, CardBody } from "@nextui-org/card";
-import { Divider } from "@nextui-org/divider";
-import { Image } from "@nextui-org/image";
-import { Textarea } from "@nextui-org/input";
+import { Card, CardBody } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Image } from "@heroui/image";
+import { Textarea } from "@heroui/input";
 
 import { GithubIcon } from "../icons/general-icons";
 import { WebsiteIcon } from "../icons/general-icons";

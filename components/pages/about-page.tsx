@@ -5,11 +5,11 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-flip";
 
-import { Spacer } from "@nextui-org/spacer";
+import { Spacer } from "@heroui/spacer";
 import React from "react";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Divider } from "@nextui-org/divider";
+import { Divider } from "@heroui/divider";
 
 import { Timeline } from "@/components/timeline/timeline";
 import { ExperienceCard } from "@/components/cards/experience-card";

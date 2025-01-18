@@ -1,4 +1,4 @@
-import { Tab, Tabs } from "@nextui-org/tabs";
+import { Tab, Tabs } from "@heroui/tabs";
 
 import { SkillsTab } from "./tab/home/skills-tab";
 import { HobbiesTab } from "./tab/home/hobbies-tab";

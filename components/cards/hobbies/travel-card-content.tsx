@@ -1,4 +1,4 @@
-import { Spacer } from "@nextui-org/spacer";
+import { Spacer } from "@heroui/spacer";
 
 import { TravelImageCard } from "../travel-image-card";
 

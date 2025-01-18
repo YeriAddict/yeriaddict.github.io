@@ -1,5 +1,5 @@
-import { Chip } from "@nextui-org/chip";
-import { Spacer } from "@nextui-org/spacer";
+import { Chip } from "@heroui/chip";
+import { Spacer } from "@heroui/spacer";
 
 export const SkillsAccordionContent = [
   {

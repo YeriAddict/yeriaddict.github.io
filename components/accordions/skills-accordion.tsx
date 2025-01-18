@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem } from "@nextui-org/accordion";
+import { Accordion, AccordionItem } from "@heroui/accordion";
 
 interface Props {
   skillsContent: { title: string; body: React.JSX.Element }[];

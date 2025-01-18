@@ -4,8 +4,8 @@ import type { Chrono as ChronoType } from "react-chrono";
 
 import React from "react";
 import dynamic from "next/dynamic";
-import { Image } from "@nextui-org/image";
-import { Spacer } from "@nextui-org/spacer";
+import { Image } from "@heroui/image";
+import { Spacer } from "@heroui/spacer";
 
 import {
   FranceIcon,

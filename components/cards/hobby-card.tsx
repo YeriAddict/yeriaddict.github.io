@@ -1,6 +1,6 @@
-import { Card, CardBody, CardHeader } from "@nextui-org/card";
-import { Divider } from "@nextui-org/divider";
-import { Spacer } from "@nextui-org/spacer";
+import { Card, CardBody, CardHeader } from "@heroui/card";
+import { Divider } from "@heroui/divider";
+import { Spacer } from "@heroui/spacer";
 
 import { HobbyModal } from "../modals/hobby-modal";
 

@@ -1,6 +1,6 @@
-import { Card, CardHeader } from "@nextui-org/card";
-import { Image } from "@nextui-org/image";
-import { Spacer } from "@nextui-org/spacer";
+import { Card, CardHeader } from "@heroui/card";
+import { Image } from "@heroui/image";
+import { Spacer } from "@heroui/spacer";
 
 import { FranceIcon, SwitzerlandIcon } from "../icons/countries-icons";
 

@@ -1,4 +1,4 @@
-import { Spacer } from "@nextui-org/spacer";
+import { Spacer } from "@heroui/spacer";
 
 import { ProjectCard } from "@/components/cards/project-card";
 import { projects } from "@/config/items/projects-items";

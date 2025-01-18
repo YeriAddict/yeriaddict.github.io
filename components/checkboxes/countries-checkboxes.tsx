@@ -1,4 +1,4 @@
-import { Checkbox, CheckboxGroup } from "@nextui-org/checkbox";
+import { Checkbox, CheckboxGroup } from "@heroui/checkbox";
 
 import {
   AustriaIcon,

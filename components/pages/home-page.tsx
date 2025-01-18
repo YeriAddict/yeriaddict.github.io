@@ -1,6 +1,6 @@
 "use client";
-import { Image } from "@nextui-org/image";
-import { Spacer } from "@nextui-org/spacer";
+import { Image } from "@heroui/image";
+import { Spacer } from "@heroui/spacer";
 import { ReactTyped } from "react-typed";
 
 import { HomeTabs } from "../tabs/home-tabs";
