@@ -1,7 +1,7 @@
-import { heroui } from "@heroui/theme"
+import { heroui } from "@heroui/theme";
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -84,7 +84,7 @@ module.exports = {
               DEFAULT: "#FF72A1",
             },
           },
-        },        
+        },
         dark: {
           colors: {
             background: "#000F30",
@@ -154,4 +154,4 @@ module.exports = {
       },
     }),
   ],
-}
+};
