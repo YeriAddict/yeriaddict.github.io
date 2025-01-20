@@ -50,8 +50,8 @@ export const ProjectCard = ({
                     isDisabled
                     classNames={{
                       input: "text-center font-bold text-m text-primary-200",
+                      inputWrapper: "bg-primary-400",
                     }}
-                    color="secondary"
                     defaultValue={tech}
                     maxRows={1}
                   />
