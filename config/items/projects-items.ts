@@ -26,7 +26,7 @@ export const projects = [
     body: "A spotify dashboard with my listening habits and some statistics (WIP)",
     technologies: ["TypeScript", "React.js"],
     image: {
-      src: "/images/projects_images/spotify.png",
+      src: "/images/projects_images/spotify.svg",
       alt: "Spotify Dashboard",
     },
     githubLink: "https://github.com/YeriAddict/spotify-statistics",
@@ -70,7 +70,7 @@ export const projects = [
     body: "An archiving tool that automates downloading, validating, compressing from a web server and storing files on an SMB server",
     technologies: ["Python", "HTTPS", "SMB"],
     image: {
-      src: "/images/projects_images/smb.jpg",
+      src: "/images/projects_images/smb.png",
       alt: "Archiving Tool",
     },
     githubLink: "https://github.com/YeriAddict/archiving-tool",
