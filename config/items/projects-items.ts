@@ -33,6 +33,17 @@ export const projects = [
     websiteLink: "https://yeriaddict.github.io/spotify-statistics/",
   },
   {
+    header: "Nashville Policing",
+    body: "An analysis of policing trends in Nashville to uncover key patterns, community impacts, and evolving practices",
+    technologies: ["R", "D3.js"],
+    image: {
+      src: "/images/projects_images/nashville.png",
+      alt: "Nashville Policing",
+    },
+    githubLink: "https://github.com/YeriAddict/nashville-policing",
+    websiteLink: "https://yeriaddict.github.io/nashville-policing/",
+  },
+  {
     header: "Space Simulator",
     body: "A small 3D space simulator game using fist recognition for vehicle navigation",
     technologies: ["C++", "OpenGL", "OpenCV"],
