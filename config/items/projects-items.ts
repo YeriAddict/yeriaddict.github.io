@@ -66,6 +66,17 @@ export const projects = [
     websiteLink: "",
   },
   {
+    header: "Archiving Tool",
+    body: "An archiving tool that automates downloading, validating, compressing from a web server and storing files on an SMB server",
+    technologies: ["Python", "HTTPS", "SMB"],
+    image: {
+      src: "/images/projects_images/smb.jpg",
+      alt: "Archiving Tool",
+    },
+    githubLink: "https://github.com/YeriAddict/archiving-tool",
+    websiteLink: "",
+  },
+  {
     header: "Calculator",
     body: "A calculator application that performs basic arithmetic and scientific operations",
     technologies: ["Java"],
