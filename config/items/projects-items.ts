@@ -22,6 +22,17 @@ export const projects = [
     websiteLink: "",
   },
   {
+    header: "Spotify Dashboard",
+    body: "A spotify dashboard with my listening habits and some statistics (WIP)",
+    technologies: ["TypeScript", "React.js"],
+    image: {
+      src: "/images/projects_images/spotify.png",
+      alt: "Spotify Dashboard",
+    },
+    githubLink: "https://github.com/YeriAddict/spotify-statistics",
+    websiteLink: "https://yeriaddict.github.io/spotify-statistics/",
+  },
+  {
     header: "Space Simulator",
     body: "A small 3D space simulator game using fist recognition for vehicle navigation",
     technologies: ["C++", "OpenGL", "OpenCV"],
