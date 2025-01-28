@@ -23,7 +23,7 @@ export const projects = [
   },
   {
     header: "Spotify Dashboard",
-    body: "A spotify dashboard with my listening habits and some statistics (WIP)",
+    body: "A dynamic Spotify dashboard showcasing my listening habits and personalized statistics, powered by the Last.fm and Spotify APIs",
     technologies: ["TypeScript", "React.js"],
     image: {
       src: "/images/projects_images/spotify.svg",
