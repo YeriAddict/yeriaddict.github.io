@@ -11,6 +11,17 @@ export const projects = [
     websiteLink: "https://yeriaddict.github.io/",
   },
   {
+    header: "Fake News Classifier",
+    body: "An end-to-end machine learning pipeline for ingesting, processing, and classifying news claims as true or false",
+    technologies: ["Python", "Docker", "FastAPI"],
+    image: {
+      src: "/images/projects_images/fake_news_classifier.png",
+      alt: "Fake News Classifier",
+    },
+    githubLink: "https://github.com/YeriAddict/news-classifier-mlops",
+    websiteLink: "",
+  },
+  {
     header: "Iris Recognition",
     body: "An iris recognition model inspired by Li Ma's research on biometric recognition methods based on Gabor multichannel filtering",
     technologies: ["Python", "OpenCV"],
