@@ -19,6 +19,8 @@ export const FactsTab = () => {
                   <li>Bubble tea always fixes everything for me 🧋</li>
                   <li>I always go for a walk to refresh my mind 🚶‍♂️</li>
                   <li>I love Vietnamese food 🍜</li>
+                  <li>My favourite ice cream flavour is mango 🥭</li>
+                  <li>I have been living in New York since 2023 🗽</li>
                 </ul>
               </CardBody>
             </Card>
@@ -42,6 +44,9 @@ export const FactsTab = () => {
                   <li>
                     I had a pretty bad reflex syncope (loss of consciousness),
                     which made my loved ones worry about me 🤕
+                  </li>
+                  <li>
+                    I get bullied by my siblings and friends 24/7 😂
                   </li>
                 </ul>
               </CardBody>
