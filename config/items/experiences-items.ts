@@ -1,5 +1,21 @@
 export const experiences = [
   {
+    title: "Graduate Research Assistant",
+    company: {
+      name: "Columbia University Mailman School of Public Health",
+      src: "https://www.publichealth.columbia.edu/",
+    },
+    date: "Mar 2025 - Now",
+    location: "New York, NY, USA",
+    technologies: [
+      "Python"
+    ],
+    image: {
+      src: "/images/experiences_images/columbia_mailman.png",
+      alt: "Columbia University Mailman School of Public Health",
+    },
+  },
+  {
     title: "Data Scientist Intern",
     company: {
       name: "Analysis Group",
