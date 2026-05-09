@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "yeriaddict",
+  name: "denis-leang",
   description: "Denis's personal website!",
   navItems: [
     {
@@ -22,7 +22,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/YeriAddict",
+    github: "https://github.com/denis-leang",
     linkedin: "https://www.linkedin.com/in/denis-leang/",
   },
 };

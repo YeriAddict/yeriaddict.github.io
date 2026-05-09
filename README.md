@@ -29,7 +29,7 @@
 <!-- OVERVIEW -->
 ## Overview
 
-My portfolio website is built with **TypeScript** using **React**. It is deployed as a static website on GitHub Pages and can be accessed at [https://yeriaddict.github.io/](https://yeriaddict.github.io/).
+My portfolio website is built with **TypeScript** using **React**. It is deployed as a static website on GitHub Pages and can be accessed at [https://denis-leang.github.io/](https://denis-leang.github.io/).
 
 ---
 

@@ -7,8 +7,8 @@ export const projects = [
       src: "/images/projects_images/portfolio.png",
       alt: "Portfolio Website",
     },
-    githubLink: "https://github.com/YeriAddict/yeriaddict.github.io",
-    websiteLink: "https://yeriaddict.github.io/",
+    githubLink: "https://github.com/denis-leang/denis-leang.github.io",
+    websiteLink: "https://denis-leang.github.io/",
   },
   {
     header: "Fake News Classifier",
@@ -18,7 +18,7 @@ export const projects = [
       src: "/images/projects_images/fake_news_classifier.png",
       alt: "Fake News Classifier",
     },
-    githubLink: "https://github.com/YeriAddict/news-classifier-mlops",
+    githubLink: "https://github.com/denis-leang/news-classifier-mlops",
     websiteLink: "",
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
       src: "/images/projects_images/iris_recognition.png",
       alt: "Iris Recognition",
     },
-    githubLink: "https://github.com/YeriAddict/iris-recognition",
+    githubLink: "https://github.com/denis-leang/iris-recognition",
     websiteLink: "",
   },
   {
@@ -40,8 +40,8 @@ export const projects = [
       src: "/images/projects_images/spotify.svg",
       alt: "Spotify Dashboard",
     },
-    githubLink: "https://github.com/YeriAddict/spotify-statistics",
-    websiteLink: "https://yeriaddict.github.io/spotify-statistics/",
+    githubLink: "https://github.com/denis-leang/spotify-statistics",
+    websiteLink: "https://denis-leang.github.io/spotify-statistics/",
   },
   {
     header: "Nashville Policing",
@@ -51,8 +51,8 @@ export const projects = [
       src: "/images/projects_images/nashville.png",
       alt: "Nashville Policing",
     },
-    githubLink: "https://github.com/YeriAddict/nashville-policing",
-    websiteLink: "https://yeriaddict.github.io/nashville-policing/",
+    githubLink: "https://github.com/denis-leang/nashville-policing",
+    websiteLink: "https://denis-leang.github.io/nashville-policing/",
   },
   {
     header: "Space Simulator",
@@ -62,7 +62,7 @@ export const projects = [
       src: "/images/projects_images/space_simulator.png",
       alt: "Space Simulator",
     },
-    githubLink: "https://github.com/YeriAddict/space-simulator",
+    githubLink: "https://github.com/denis-leang/space-simulator",
     websiteLink: "",
   },
   {
@@ -73,7 +73,7 @@ export const projects = [
       src: "/images/projects_images/rpg_chat_simulator.jpg",
       alt: "RPG Chat Simulator",
     },
-    githubLink: "https://github.com/YeriAddict/rpg-chat-simulator",
+    githubLink: "https://github.com/denis-leang/rpg-chat-simulator",
     websiteLink: "",
   },
   {
@@ -84,7 +84,7 @@ export const projects = [
       src: "/images/projects_images/smb.png",
       alt: "Archiving Tool",
     },
-    githubLink: "https://github.com/YeriAddict/archiving-tool",
+    githubLink: "https://github.com/denis-leang/archiving-tool",
     websiteLink: "",
   },
   {
@@ -92,7 +92,7 @@ export const projects = [
     body: "A calculator application that performs basic arithmetic and scientific operations",
     technologies: ["Java"],
     image: { src: "/images/projects_images/calculator.png", alt: "Calculator" },
-    githubLink: "https://github.com/YeriAddict/calculator",
+    githubLink: "https://github.com/denis-leang/calculator",
     websiteLink: "",
   },
 ];
